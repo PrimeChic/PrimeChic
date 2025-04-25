@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 50px;
-    background-color: #ff66b2; /* Soft pink */
+    background-color: #cc3366; /* Darker pink */
 }
 
 /* H1 styling */
@@ -28,11 +28,46 @@ header p {
     margin-top: 10px;
 }
 
+/* Navigation bar styling */
+nav {
+    background-color: #333; /* Dark background for the nav bar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #cc3366; /* Darker pink for hover effect */
+}
+
 /* Main section styling */
 main {
     padding: 30px;
     background-color: white;
     text-align: center;
+}
+
+/* Section styling for new sections */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
 }
 
 /* H2 styling */
@@ -41,10 +76,30 @@ h2 {
     color: #333;
 }
 
+/* Styling for "New Arrivals" section */
+#new-arrivals {
+    background-color: #f9d4e0; /* Softer pink */
+}
+
+/* Styling for "Styling Tips" section */
+#styling {
+    background-color: #fafafa;
+}
+
+/* Styling for "Hair Styling" section */
+#hair-styling {
+    background-color: #f9d4e0; /* Softer pink */
+}
+
+/* Styling for "Jewelry & Accessories" section */
+#jewelry {
+    background-color: #fafafa;
+}
+
 /* Product section styling */
 .products {
     padding: 40px 20px;
-    background-color: #fff0f5; /* Light pink */
+    background-color: #f9d4e0; /* Softer pink */
 }
 
 /* Product card styling */
@@ -83,7 +138,7 @@ h2 {
 /* Contact section styling */
 .contact {
     padding: 40px 20px;
-    background-color: #ffebf2;
+    background-color: #f9d4e0; /* Softer pink */
     text-align: center;
 }
 
@@ -91,7 +146,7 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff66b2; /* Soft pink */
+    background-color: #cc3366; /* Darker pink */
     color: white;
     position: relative;
     bottom: 0;
@@ -100,7 +155,4 @@ footer {
 
 /* Link styling */
 a {
-    color: yellow;
-    text-decoration: none;
-    font-weight: bold;
-}
+    color
