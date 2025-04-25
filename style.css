@@ -3,12 +3,15 @@ body {
     background-color: #78014B; /* Prime Chic color */
     font-family: 'Lora', serif; /* Font for body */
     color: white; /* Text color */
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styling */
 header {
     text-align: center;
     padding: 50px;
+    background-color: #ff66b2; /* Soft pink */
 }
 
 /* H1 styling */
@@ -16,6 +19,83 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     color: white;
+    margin: 0;
+}
+
+/* Paragraph styling in header */
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Main section styling */
+main {
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+/* H2 styling */
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Product section styling */
+.products {
+    padding: 40px 20px;
+    background-color: #fff0f5; /* Light pink */
+}
+
+/* Product card styling */
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* Product image styling */
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Product description styling */
+.product p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* About section styling */
+.about {
+    padding: 40px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+/* Contact section styling */
+.contact {
+    padding: 40px 20px;
+    background-color: #ffebf2;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff66b2; /* Soft pink */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Link styling */
