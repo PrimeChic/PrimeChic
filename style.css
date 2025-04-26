@@ -1,158 +1,124 @@
+/* Logo Styling */
+.logo {
+  display: block;
+  width: 600px; /* Increased size by three times */
+  height: auto;
+  margin: 0 auto; /* Center the logo horizontally */
+  margin-top: -5px; /* Shift the logo up by 3 cm (85px total from original position) */
+}
+
+/* Row below the logo styling */
+.row-below-logo {
+  margin-top: -45px; /* Push the row up by 1.5 cm (approximately -45px) */
+}
+
 /* Body styling */
 body {
-    background-color: #78014B; /* Prime Chic color */
-    font-family: 'Lora', serif; /* Font for body */
-    color: white; /* Text color */
-    margin: 0;
-    padding: 0;
+  background-color: #78014B; /* Burgundy */
+  font-family: 'Lora', serif;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header styling */
 header {
-    text-align: center;
-    padding: 50px;
-    background-color: #cc3366; /* Darker pink */
+  text-align: center; /* Center-align header content */
+  padding: 20px; /* Reduce padding to shift content up */
+  background-color: white; /* Set background to white */
+  position: relative; /* Add positioning to enable precise alignment */
 }
 
-/* H1 styling */
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    color: white;
-    margin: 0;
+header h1 {
+  display: none; /* Remove the "Welcome to Prime Chic" text */
 }
 
-/* Paragraph styling in header */
 header p {
-    font-size: 1.2em;
-    margin-top: 10px;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
 /* Navigation bar styling */
 nav {
-    background-color: #333; /* Dark background for the nav bar */
-    padding: 10px 0;
-    text-align: center;
+  background-color: #78014B; /* Match the logo's color */
+  padding: 5px 0; /* Reduce padding to shift navbar up */
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 20px;
+  display: inline;
+  margin: 0 20px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #cc3366; /* Darker pink for hover effect */
+  color: #cc3366;
 }
 
 /* Main section styling */
 main {
-    padding: 30px;
-    background-color: white;
-    text-align: center;
+  padding: 20px; /* Reduce padding to shift main content up */
+  background-color: white;
+  text-align: center;
+  color: #333;
 }
 
-/* Section styling for new sections */
+/* Section styling */
 section {
-    margin-bottom: 40px;
-    padding: 20px;
+  margin-bottom: 30px; /* Reduce margin to shift sections up */
+  padding: 20px;
 }
 
-/* H2 styling */
-h2 {
-    font-size: 2em;
-    color: #333;
+section h2 {
+  font-size: 2em;
+  color: #78014B; /* Match the logo's color */
 }
 
-/* Styling for "New Arrivals" section */
-#new-arrivals {
-    background-color: #f9d4e0; /* Softer pink */
+section p {
+  font-size: 1.2em;
+  color: #555;
 }
 
-/* Styling for "Styling Tips" section */
-#styling {
-    background-color: #fafafa;
+/* Social Media section */
+#social-media ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-/* Styling for "Hair Styling" section */
-#hair-styling {
-    background-color: #f9d4e0; /* Softer pink */
+#social-media ul li {
+  margin: 5px 0; /* Reduce margin to shift items up */
 }
 
-/* Styling for "Jewelry & Accessories" section */
-#jewelry {
-    background-color: #fafafa;
+#social-media ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #78014B; /* Match the logo's color */
+  font-weight: bold;
 }
 
-/* Product section styling */
-.products {
-    padding: 40px 20px;
-    background-color: #f9d4e0; /* Softer pink */
-}
-
-/* Product card styling */
-.product {
-    display: inline-block;
-    width: 250px;
-    margin: 10px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-}
-
-/* Product image styling */
-.product img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Product description styling */
-.product p {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #333;
-}
-
-/* About section styling */
-.about {
-    padding: 40px 20px;
-    background-color: #fafafa;
-    text-align: center;
-}
-
-/* Contact section styling */
-.contact {
-    padding: 40px 20px;
-    background-color: #f9d4e0; /* Softer pink */
-    text-align: center;
+#social-media ul li a:hover {
+  color: #cc3366;
 }
 
 /* Footer styling */
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #cc3366; /* Darker pink */
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 15px; /* Reduce padding to shift footer up */
+  background-color: #78014B; /* Match the logo's color */
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
-
-/* Link styling */
-a {
-    color
